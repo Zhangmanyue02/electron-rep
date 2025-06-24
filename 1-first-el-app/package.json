@@ -1,0 +1,15 @@
+{
+  "name": "1-first-el-app",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zmy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^36.5.0"
+  }
+}
