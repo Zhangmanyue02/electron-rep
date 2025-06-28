@@ -1,0 +1,6 @@
+ASAR 表示 Atom Shell Archive Format。 一个 asar 档案就是一个简单的 tar 文件 - 
+比如将那些有关联的文件放至一个单独的文件格式中。 
+Electron 能够任意读取其中的文件并且不需要解压整个文件。
+
+ASAR格式是为了在Windows系统读取大量的小文件时
+ (比如像从node_modules加载应用的JavaScript依赖关系树) 提高性能。
